@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Breakout - Árni Geir Úlfarsson</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+	<header><h1>Breakout</h1></header>
+	<main>
+		<section>
+			<canvas id="myCanvas" width="600" height="600" style="border: 1px solid black;"> Sorry, nut but your browser does not support the HTML5 canvas tag. </canvas>
+
+			<p>Key S to start game</p>
+			<p>Key A to move left</p>
+			<p>Key D to move right</p>
+			<p>Key W to shoot gun</p>
+			<p>Key P to pause game</p>
+		</section>
+		<aside>
+			<p id="guns"><span>• </span>guns</p>
+			<p id="paddleSpeedUp"><span>• </span>paddleSpeedUp</p>
+			<p id="paddleSlowDown"><span>• </span>paddleSlowDown</p>
+			<p id="smallPaddle"><span>• </span>smallPaddle</p>
+			<p id="bigPaddle"><span>• </span>bigPaddle</p>
+			<p id="slowBall"><span>• </span>slowBall</p>
+			<p id="extraBall"><span>• </span>extraBall</p>
+			<p id="fastBall"><span>• </span>fastBall</p>
+			<p id="wrongDirections"><span>• </span>wrongDirections</p>
+
+		</aside>
+	</main>
+	<script src="Scripts/gameStatus.js"></script>
+	<script src="Scripts/levels.js"></script>
+	<script src="Scripts/items.js"></script>
+	<script src="Scripts/utils.js"></script>
+	<script src="Scripts/g_keys.js"></script>
+	<script src="Scripts/Paddle.js"></script>
+	<script src="Scripts/bullets.js"></script>
+	<script src="Scripts/blocks.js"></script>
+	<script src="Scripts/render.js"></script>
+	<script src="Scripts/g_ball.js"></script>
+	<script src="Scripts/g_main.js"></script>
+	<script src="Scripts/update.js"></script>
+	<script src="Scripts/BREAKOUT.js"></script>
+
+</body>
+</html>

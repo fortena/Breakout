@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	background: #FFFFEE;
+}
+
+header h1 {
+	font-family: Courier;
+	font-size: 46px;
+	xtext-align: center;
+}
+
+#myCanvas {
+	background: url("https://secure.static.tumblr.com/0259d37c1dd66ac1ff1f88154a455241/cfvapuz/y7cn79vpo/tumblr_static_8_bit_ocean_by_pterodactylenol-d363pgc.jpg");
+	background-size: 100%
+}
+body {
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+section {
+	width: 60%;
+	float: left;
+	margin: 0 0 0 0;
+}
+
+aside {
+	width: 30%;
+	height: 600px;
+	float: right;
+	margin: 0 8% 0 0;
+}
+
+aside p {
+	font-size: 20px;
+	margin-left: 5px;
+	font-family: Courier;
+	letter-spacing: 2px;
+	line-height: 45px;
+}
+
+section p {
+	font-family: Courier;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+#guns span {
+	color: #D82735;
+}
+
+#paddleSpeedUp span {
+	color: #FFCB35;
+}
+
+#paddleSlowDown span {
+	color: #06A9FC;
+}
+
+#smallPaddle span {
+	color: #16DD36;
+}
+
+#bigPaddle span {
+	color: #009E47;
+}
+
+#slowBall span {
+	color: #0079E7;
+}
+
+#extraBall span {
+	color: #BD7AF6;
+}
+
+#fastBall span {
+	color: #FF7435;
+}
+
+#wrongDirections span {
+	color: #7D3CB5;
+}
